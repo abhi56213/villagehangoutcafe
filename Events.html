@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VHC</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <!-- Add your stretched logo image here -->
+            <img src="logo.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About us</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+                <li><a href="Events.html">Events</a></li>
+				<li><a href="Contact.html">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+       <div class="container">
+        <div class="frame">
+            <ul>
+                <li><a href="#" onclick="showCurrentEvents()">Current Events</a></li>
+                <li><a href="#" onclick="showPreviousEvents()">Previous Events</a></li>
+            </ul>
+        </div>
+
+	
+        <div class="event-content">
+            <div id="current-events" class="event-section">
+                <h2>Current Events</h2>
+                <!-- Display the current events images and descriptions here -->
+                <div class="event">
+                    <img src="roast.jpg" alt="Event 1">
+                    <h2>Sunday Roast</h2>
+                </div>
+                
+                <!-- If no current events available, display the message -->
+            </div>
+            <div id="previous-events" class="event-section">
+                <h2>Previous Events</h2>
+                <!-- Display the previous events images and descriptions here -->
+                
+                <div class="event">
+                    <img src="image2.jpeg" alt="Event 2">
+                    <h2>Cafe Launch</h2>
+                </div>
+                <!-- If no previous events available, display the message -->
+               
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Village Hangout Cafe. All rights reserved.</p>
+    </footer>
+</body>
+</html>
