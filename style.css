@@ -168,3 +168,20 @@ footer {
     max-width: 25%;
     height: auto;
 }
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+    }
+
+    .frame {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .about-us-content {
+    margin-left: 20px;
+    }
+   .about-us-section img {
+    max-width: 25%;
+    height: auto;
+}
+}
