@@ -39,6 +39,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #333;
+	font-size: 30px;
 }
 
 /* Same styles as before */
@@ -110,6 +111,7 @@ footer {
 .frame ul li a {
     text-decoration: none;
     color: #333;
+	font-size: 25px;
 }
 
 .menu-content {
@@ -154,6 +156,9 @@ footer {
 
 .contact-us-content {
     margin-left: 20px;
+    flex: 1; /* Added to expand to available space */
+    display: flex; /* Added to create a flex container */
+    justify-content: flex-end;
     }
 	
 #map {
@@ -163,7 +168,11 @@ footer {
 
 .about-us-content {
     margin-left: 20px;
+    flex: 1; /* Added to expand to available space */
+    display: flex; /* Added to create a flex container */
+    justify-content: flex-end;
     }
+
 .about-us-section img {
     max-width: 25%;
     height: auto;
