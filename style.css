@@ -177,3 +177,25 @@ footer {
     max-width: 25%;
     height: auto;
 }
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+    }
+
+    .frame {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #map {
+        height: 200px; /* Adjust the height of the map container for smaller screens */
+    }
+
+    main {
+        width: 100%;
+    }
+
+    main h1 {
+        text-align: center; /* Center the heading on smaller screens */
+    }
+}
